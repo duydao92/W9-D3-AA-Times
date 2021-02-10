@@ -1,0 +1,8 @@
+/* .masthead__search {
+    display: inline-flex;
+    justify-content: flex-start;
+} */
+
+.masthead__search--hidden {
+    display: none;
+}
