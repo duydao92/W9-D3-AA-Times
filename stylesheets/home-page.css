@@ -1,4 +1,4 @@
-#masthead {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr, 1fr, 4fr;
-}
+/* .masthead {
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 2fr, 1fr, 4fr;
+} */
