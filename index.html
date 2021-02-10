@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="stylesheets/main-styles.css" />
 		<link rel="stylesheet" href="stylesheets/reset.css" />
 		<script src="./scripts/home-page.js"></script>
+		<script src="./scripts/drop-down-menu.js"></script>
 		<title>App Academy Times</title>
 	</head>
 	<body>
@@ -28,6 +29,24 @@
 					<button>Log In</button>
 					<div class="masthead__icon-button">
 						<i class="fas fa-cog"></i>
+						<div class="pref pref--hidden">
+							<div class="pref__section">
+								<div class="pref__section-header">Edition</div>
+								<ul>
+								<li class="pref__section-link"><a href="#">CSS</a></li>
+								<li class="pref__section-link"><a href="#">HTML</a></li>
+								<li class="pref__section-link"><a href="#">JavaScript</a></li>
+								<li class="pref__section-link"><a href="#">Python</a></li>
+								</ul>
+							</div>
+							<div class="pref__section">
+								<div class="pref__section-header">Help</div>
+								<ul>
+								<li class="pref__section-link"><a href="#">FAQ</a></li>
+								<li class="pref__section-link"><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+							</div>
 					</div>
 				</div>
 				<div class="masthead__technologies">
@@ -45,7 +64,34 @@
 				<div class="masthead__paper"><i class="far fa-newspaper"></i> Today's Paper</div>
 			</div>
 		</header>
-		<main></main>
+		<main>
+			<nav class="main">
+				<ul>
+				  <li><a href="/products">Products</a></li>
+				  <li><a href="/services">Services</a></li>
+				  <li><a href="/about">About</a></li>
+				  <li><a href="/contact">Contact Us</a></li>
+				</ul>
+			  </nav>
+			<div class="pref pref--hidden">
+  <div class="pref__section">
+    <div class="pref__section-header">Edition</div>
+    <ul>
+      <li class="pref__section-link"><a href="#">CSS</a></li>
+      <li class="pref__section-link"><a href="#">HTML</a></li>
+      <li class="pref__section-link"><a href="#">JavaScript</a></li>
+      <li class="pref__section-link"><a href="#">Python</a></li>
+    </ul>
+  </div>
+  <div class="pref__section">
+    <div class="pref__section-header">Help</div>
+    <ul>
+      <li class="pref__section-link"><a href="#">FAQ</a></li>
+      <li class="pref__section-link"><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</div>
+		</main>
 		<footer></footer>
 	</body>
 </html>
